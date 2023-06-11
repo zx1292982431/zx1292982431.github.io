@@ -18,10 +18,10 @@
     <meta property="og:type" content="website"/>
     <meta property="og:title" content="about"/>
     <meta property="og:description" content=""/>
-    <meta property="og:locale" content="en" />
+    <meta property="og:locale" content="cn" />
     <meta property="og:type" content="article" />
     <meta property="og:url" content="http://example.com/about/index.html" />
-    <meta property="og:site_name" content="John Doe" />
+    <meta property="og:site_name" content="lzx" />
     <meta property="article:publisher" content="" />
     <script type="application/ld+json">
         {
@@ -31,7 +31,7 @@
             "description": "",
             "publisher": {
                 "@type": "Organization",
-                "name": "John Doe"
+                "name": "lzx"
             },
         }
     </script>
@@ -45,6 +45,8 @@
 
     
 
+    
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🦄</text></svg>">
     
 
     
@@ -66,7 +68,7 @@
             
             
         }
-        window.aomori_logo_typed_animated = false
+        window.aomori_logo_typed_animated = true
         window.aomori_search_algolia = false
 
     </script>
@@ -81,7 +83,10 @@
             
             <div class="header-type-inner">
                 
-                    <a class="header-type-title" href="/">lzx的博客</a>
+                    <div id="typed-strings" style="display:none">
+                        <p>lzx的博客</p>
+                    </div>
+                    <a class="header-type-title" id="typed" href="/"></a>
                 
     
                 
@@ -92,9 +97,23 @@
         <div class="header-menu">
             <div class="header-menu-inner">
                 
+                <a href="/">首页</a>
+                
+                <a href="/archives">归档</a>
+                
+                <a href="/about">关于我</a>
+                
             </div>
             <div class="header-menu-social">
                 
+    <a class="social" target="_blank" href="https://github.com/zx1292982431">
+        <ion-icon name="logo-github"></ion-icon>
+    </a>
+
+    <a class="social" target="_blank" href="zx1292982431@gmail.com">
+        <ion-icon name="mail-unread-outline"></ion-icon>
+    </a>
+
             </div>
         </div>
 
@@ -113,6 +132,12 @@
                     <i class="icon icon-cross"></i>
                 </div>
                 <div class="header-menu-mobile-menu-list">
+                    
+                    <a href="/">首页</a>
+                    
+                    <a href="/archives">归档</a>
+                    
+                    <a href="/about">关于我</a>
                     
                 </div>
             </div>
